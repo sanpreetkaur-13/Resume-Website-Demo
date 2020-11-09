@@ -1,0 +1,294 @@
+body{
+    margin:0px auto ;
+    width: 100%;
+}
+nav ul li{
+    list-style-type:none;
+    float:left;
+    padding-right:2em;
+    color:#fff0f0;
+}
+nav ul{
+    float: right;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff0f0;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color:#835858; 
+      position: fixed;
+}
+
+section{
+    background-color: #ebd4d4;
+}
+.home
+{
+    text-align:center;
+    font-size:52px;
+    padding-top: 50px;
+    height:100vh;
+    width:100%;
+    display:table;
+}
+.inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+.home .inner img
+{
+    border-radius:50px;
+}
+.home .inner h1{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.about{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8TuB7-E4P8jp04tnJ_jbnn4bDFQvQXvRGng&usqp=CAU");
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: table;
+    height:100vh;
+    width:93.4%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.about .inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.about .inner h1{
+    font-size: 38px;
+    text-align:center;
+}
+
+.about .inner p{
+    font-size: 28px;
+}
+
+.education{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100;
+    width:80%;
+}
+.education .inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.education .inner h1{
+    font-size: 40px;
+    text-align:center;
+}
+.education .inner div, .skills .inner div{
+    width:20%;
+    margin-left:120px;
+    margin-right:5px;
+    float:left;
+    text-align:left;
+}
+
+.education .inner div img{
+    width:100px;
+    height: auto;
+    border-radius: 10px;
+    border-bottom-color: coral;
+}
+
+.education .inner div h3{
+    font-size: 28px;
+}
+.education .inner div h4{
+    font-size: 26px;
+}
+
+
+.education .inner div p{
+    font-size: 22px;
+}
+
+.skills{
+    background-image: url("https://cdn.acodez.in/wp-content/uploads/2019/07/What-is-the-future-and-scope-of-web-development-career-banner.jpg");
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-bottom: 10px;
+    display: table;
+    height:100vh;
+    width:93.4%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.skills .inner{
+    vertical-align:middle;
+    background-color: rgba(0,0,0,0.5);
+}
+.certificates{
+    text-align: left;
+    padding-left: 100px;
+    width:93.4%;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    
+    background-image: url("../img/bg1.jpg");
+    display:table;
+    height:100vh;
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.certificates .inner{
+    vertical-align:middle;
+}
+
+.certificates .inner h1{
+    font-size: 38px;
+    text-align:center;
+     color:crimson;
+}
+
+.certificates .inner ul li{
+    font-size: 28px;
+    font-family: 'Satisfy', cursive;
+    color:crimson;
+}
+
+.projects{
+    text-align: left;
+    padding-left: 100px;
+    background-image: url("https://sdrinfotech.com/imgs/web_design.jpg");
+    display:table;
+    height:100vh;
+    width:94.3%;
+    background-size:100% 100%;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-right: 200px;
+
+    
+    
+}
+.projects .inner{
+    display:table-cell;
+    vertical-align:left;
+}
+
+.projects .inner h1, .skills .inner h1{
+    font-size: 38px;
+    text-align:center;
+     color: aliceblue;
+}
+
+.projects .inner ul li, .skills .inner ul li{
+    font-size: 28px;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+
+.projects{
+    text-align: left;
+    padding-left: 100px;
+    width:80%;
+}
+.projects .inner{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    vertical-align:middle;
+}
+
+.hobbies{
+    text-align: left;
+    padding-left: 100px;
+    background-image: url("https://uploads-ssl.webflow.com/5e36e86f7aa7cf2aeda7bed4/5e397746858bd02d829d3edc_22.jpg");
+    display:table;
+    width:93.4%;
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-position: center center;
+    
+}
+.hobbies .inner{
+    display:table-cell;
+    vertical-align:left;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.hobbies .inner h1{
+    font-size: 38px;
+    text-align:center;
+     color: aliceblue;
+}
+
+.hobbies .inner ul li{
+    font-size: 28px;
+    color: aliceblue;
+    font-family: 'Satisfy', cursive;
+}
+
+.personalskills{
+    text-align: left;
+    padding-left: 100px;
+    display:table;
+    width:93.4%;
+    padding-bottom: 200px;
+    padding-top: 200px;
+
+    
+}
+.personalskills .inner{
+    display:table-cell;
+    vertical-align:left;
+}
+
+.personalskills .inner h1{
+    font-size: 38px;
+    text-align:center;
+}
+
+.personalskills .inner ul li{
+    font-size: 28px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.personalskills{
+    text-align: left;
+    padding-left: 100px;
+    width:80%;
+}
+.personalskills .inner{
+    vertical-align:middle;
+}
+
+.contact{
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/92/57/contact-icon-vector-10599257.jpg");
+    display:table;
+    text-align:center;
+    height:100vh;
+    width:100%;
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.contact .inner{
+    display:table-cell;
+    vertical-align:left;
+}
+.contact .inner h1{
+    font-size: 38px;
+    text-align:center;
+}
+
+.contact .inner p{
+    font-size: 28px;
+}
